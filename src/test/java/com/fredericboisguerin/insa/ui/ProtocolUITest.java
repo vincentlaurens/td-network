@@ -1,6 +1,6 @@
-package com.fredericboisguerin.insa;
+package com.fredericboisguerin.insa.ui;
 
-import static com.fredericboisguerin.insa.UITestUtils.setUserInput;
+import static com.fredericboisguerin.insa.ui.UITestUtils.setUserInput;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 

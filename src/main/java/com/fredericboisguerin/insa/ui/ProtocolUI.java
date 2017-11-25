@@ -1,4 +1,4 @@
-package com.fredericboisguerin.insa;
+package com.fredericboisguerin.insa.ui;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package com.fredericboisguerin.insa;
+package com.fredericboisguerin.insa.ui;
 
-public class ReceiveUI implements FinalUI {
+public class SendUI implements FinalUI {
     @Override
     public void onTCP() {
         throw new UnsupportedOperationException();
