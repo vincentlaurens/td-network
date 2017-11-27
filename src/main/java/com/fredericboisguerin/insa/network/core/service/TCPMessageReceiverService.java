@@ -28,7 +28,7 @@ public class TCPMessageReceiverService implements MessageReceiverService, Runnab
             boolean threadteceptionactive = true;
             while (threadteceptionactive){
                 String message = this.reader.readLine();
-                if(this.monIncomingMessageListener != null) {
+                if(message != null) {
                     this.monIncomingMessageListener.onNewIncomingMessage(message);
                 }
             }
